@@ -1,7 +1,5 @@
 module.exports = {
-  content: [
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
       colors: {
@@ -14,21 +12,23 @@ module.exports = {
         primary: 'var(--primary)',
         'primary-foreground': 'var(--primary-foreground)',
         secondary: 'var(--secondary)',
-        'secondary-foreground': 'var(--secondary-foreground)',
+        'secondary-foreground':
+          'var(--secondary-foreground)',
         muted: 'var(--muted)',
         'muted-foreground': 'var(--muted-foreground)',
         accent: 'var(--accent)',
         'accent-foreground': 'var(--accent-foreground)',
         destructive: 'var(--destructive)',
-        'destructive-foreground': 'var(--destructive-foreground)',
+        'destructive-foreground':
+          'var(--destructive-foreground)',
         border: 'var(--border)',
         input: 'var(--input)',
-        ring: 'var(--ring)',
+        ring: 'var(--ring)'
       },
       borderRadius: {
-        DEFAULT: 'var(--radius)',
-      },
-    },
+        DEFAULT: 'var(--radius)'
+      }
+    }
   },
-  plugins: [],
+  plugins: []
 }

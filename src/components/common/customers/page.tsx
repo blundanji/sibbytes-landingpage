@@ -1,17 +1,17 @@
-'use client';
+'use client'
 
-import { header } from '@/components/common/header';
+import { Header } from '@/components/common/Header'
 
 const CustomersPage = () => {
   return (
     <>
-      <header />
+      <Header />
       <div className="page-content">
         <h1>Our Customers</h1>
         <p>Information about our customers...</p>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default CustomersPage;
+export default CustomersPage
